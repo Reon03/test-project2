@@ -17,6 +17,8 @@
 
 
 
+
+
 .home {
     .home-slider {
         .slide {
@@ -28,24 +30,8 @@
 
             .content {
                 flex: 1 1 45rem;
-
-
-                h1 {
-                    color: black;
-                    font-size: auto;
-                    text-align: left;
-                }
-
-                p {
-
-                    font-size: auto;
-                    padding: .1rem 0;
-                    line-height: 1, 5;
-                    text-align: left;
-                }
             }
-
-
+            
             .image {
                 flex: 1 1 45rem;
 
@@ -61,9 +47,24 @@
     text-align: left;
     display: flex;
 }
+h1 {
+    color: black;
+    font-size: auto;
+    text-align: left;
+}
+
+p {
+
+    font-size: auto;
+    padding: .1rem 0;
+    line-height: 1, 5;
+    text-align: left;
+}
 
 .btn {
     margin-top: 1rem;
+    position: absolute;
+    left: 10rem;
     display: inline-block;
     font-size: 1.7rem;
     color: #fff;
